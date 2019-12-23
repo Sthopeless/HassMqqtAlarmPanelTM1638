@@ -1,8 +1,0 @@
-// Wifi SSID
-#define mySSID "[YOURSSID]]"
-
-// Wifi Passphrase
-#define myPASSWORD "YOURPASSWORD"
-
-// IP Address of the MQTT broker
-#define myMQTTBROKER "YOURBROKER"

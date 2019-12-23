@@ -1,0 +1,66 @@
+////WiFI
+#define WiFi_SSID        "SSID"
+#define WiFi_PASSWORD    "PASS"
+#define SERIAL_DEBUGGING "OFF" // On or Off for Serial Messages on Console
+
+////MQTT 
+#define DeviceName    "TM1638toMQTT"
+#define MQTTHost      "MQTT BROKER IP"
+#define MQTTUsername  "MQTT USERNAME"
+#define MQTTPassword  "MQTT PASSWORD"
+
+////MQTT Topics
+#define MQTT_Topic DeviceName
+#define MQTT_Topic_ONLINE DeviceName     "/online"
+#define MQTT_Topic_Value DeviceName      "/value"
+#define MQTT_Topic_Set DeviceName        "/set"
+#define MQTT_Topic_Text DeviceName       "/text"
+#define MQTT_Topic_Led DeviceName        "/led"
+#define MQTT_Topic_Leds DeviceName       "/leds"
+#define MQTT_Topic_Keys DeviceName       "/keys"
+
+#define MQTT_Topic_Button_01 DeviceName  "/Button_01/"
+
+
+////TM1638
+#define TM1638_VERSION 8 // 8 or 16 Buttons
+#define TM1638_STB D7
+#define TM1638_CLK D5
+#define TM1638_DIO D6
+
+////Buttons
+#define Button_01 "01"
+#define Button_02 "02"
+#define Button_03 "03"
+#define Button_04 "04"
+#define Button_05 "05"
+#define Button_06 "06"
+#define Button_07 "07"
+#define Button_08 "08"
+
+// TM1638 16 Buttons
+#define Button_09 "09"
+#define Button_10 "10"
+#define Button_11 "11"
+#define Button_12 "12"
+#define Button_13 "13"
+#define Button_14 "14"
+#define Button_15 "15"
+#define Button_16 "16"
+
+// TM1638 LED MSG
+#define LED_01 "LEd1"
+#define LED_02 "LEd2"
+#define LED_03 "LEd3"
+#define LED_04 "LEd4"
+#define LED_05 "LEd5"
+#define LED_06 "LEd6"
+#define LED_07 "LEd7"
+#define LED_08 "LEd8"
+
+////Config
+#define lastSlp_timer 10
+#define lastMsg_timer 60
+#define MSG_ONLINE "ONLINE"
+#define MSG_ON     "ON"
+#define MSG_OFF    "OFF"
